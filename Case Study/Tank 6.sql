@@ -11,3 +11,4 @@ join hop_dong hd on dv1.ma_dich_vu = hd.ma_dich_vu
 where month(ngay_lam_hop_dong) between 1 and 3
 )
 order by chi_phi_thue asc;
+                   

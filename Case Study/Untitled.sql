@@ -1,3 +1,4 @@
+drop database if exists case_study;
 create database  case_study;
 
 use case_study;
@@ -23,6 +24,7 @@ luong double,
 so_dien_thoai varchar(45),
 email varchar(45),
 dia_chi varchar(45),
+status int default 0,
 ma_vi_tri int,
 ma_trinh_do int,
 ma_bo_phan int,
@@ -51,7 +53,8 @@ so_dien_thoai varchar(45),
 email varchar (45),
 dia_chi varchar(45),
 ma_loai_khach int,
-foreign key (ma_loai_khach) references loai_khach(ma_loai_khach)
+foreign key (ma_loai_khach) references loai_khach(ma_loai_khach),
+status int default 0
 );
 create table kieu_thue(
 ma_kieu_thue int  auto_increment primary key,

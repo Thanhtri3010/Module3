@@ -1,0 +1,37 @@
+#header {
+  display: inline-flex;
+  color: yellowgreen;
+  background: radial-gradient(#ee9ca7, #ffdde1);
+  height: 100px;
+  width: 100%;
+}
+#between{
+  display: inline-flex;
+  background: radial-gradient(#c6ffdd, #fbd786, #f7797d);
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.t1{
+  text-align: center;
+  padding-top: 5px;
+  margin: 22px;
+}
+
+li{
+  float: left;
+}
+li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.search {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: right;
+  margin-right: 15px;
+}

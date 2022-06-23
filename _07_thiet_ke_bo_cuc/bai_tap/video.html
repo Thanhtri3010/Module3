@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .col-1 {
+      width: 8.33%;
+    }
+
+    .col-2 {
+      width: 16.66%;
+    }
+
+    .col-3 {
+      width: 25%;
+    }
+
+    .col-4 {
+      width: 33.33%;
+    }
+
+    .col-5 {
+      width: 41.66%;
+    }
+
+    .col-6 {
+      width: 50%;
+    }
+
+    .col-7 {
+      width: 58.33%;
+    }
+
+    .col-8 {
+      width: 66.66%;
+    }
+
+    .col-9 {
+      width: 75%;
+    }
+
+    .col-10 {
+      width: 83.33%;
+    }
+
+    .col-11 {
+      width: 91.66%;
+    }
+
+    .col-12 {
+      width: 100%;
+    }
+
+    [class*="col-"] {
+      float: left;
+      padding: 15px;
+    }
+
+    .row::after {
+      clear: both;
+      content: "";
+      display: block;
+    }
+
+    .logo-header {
+      background-color: grey;
+      font-size: 20px;
+    }
+
+    .logo {
+      background-color: red;
+      display: inline-block;
+      padding: 10px 0px;
+      border-radius: 10px;
+    }
+
+    .menu-header {
+      background-color: grey;
+      margin-top: 7px;
+      text-align: center;
+    }
+
+    @media only screen and ( max-width: 768px ) {
+      .menu-header {
+        background-color: yellow;
+        margin-top: 7px;
+        text-align: center;
+      }
+
+      [class*="col-"] {
+        width: 100%;
+      }
+    }
+
+    @media only screen and ( max-width: 1000px ) {
+      .menu-header {
+        background-color: blue;
+        margin-top: 7px;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="row">
+  <div class="logo-header col-12"><span>Phim <span class="logo">Hoạt Hình</span></span></div>
+</div>
+<div class="row menu-header">
+  Phim hoạt hình | Phim Yêu Thích | Phim xem nhiều | Góp ý
+</div>
+<div class="row">
+  <div class="col-12">
+    <div class="col-4">
+      <div class="row">
+        <div class="col-12">
+          <iframe width="500" height="315" src="https://www.youtube.com/embed/jFspAYU_zrE" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <iframe width="500" height="315" src="https://www.youtube.com/embed/o6xOkdjV83g" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <iframe width="500" height="315" src="https://www.youtube.com/embed/xLo42akkDKk" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="col-8">
+      <div class="row">
+        <div class="col-12">
+          <iframe width="100%" height="550" src="https://www.youtube.com/embed/Z25fOZtHlIQ" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+          <pre>▶️ Xem trước One Piece trên Ứng dụng POPS: https://popsapp.onelink.me/PAKN/YTOPNew
+▶️ Đăng ký ủng hộ POPS Anime để xem thêm nhiều bộ Anime mới nhất nhé: https://goo.gl/TWfPrJ
+-----
+* NỘI DUNG DÀNH CHO KHÁN GIẢ TUỔI THANH THIẾU NIÊN
+One Piece - Đảo Hải Tặc kể về cuộc hành trình của Monkey D. Luffy - thuyền trưởng của băng hải tặc Mũ Rơm và các đồng đội của cậu.
+            Luffy tìm kiếm vùng biển bí ẩn nơi cất giữ kho báu lớn nhất thế giới One Piece, với mục tiêu trở thành tân Vua Hải Tặc.
+► Trọn Bộ One Piece: https://bit.ly/2SUmAfW</pre>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

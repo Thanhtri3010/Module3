@@ -159,7 +159,15 @@ public class ProductServlet extends HttpServlet {
         double productPrice = Double.parseDouble(request.getParameter("productPrice"));
         String productDescription = request.getParameter("productDescription");
         String producer = request.getParameter("producer");
-        int id = (int) (Math.random() * 10000);
+
+        int max = 0;
+        List<Product> products = this.productService.findAll();
+        for (Product item:products) {
+            if (max<item.getId()){
+                max= item.getId();
+            }
+        }
+        int id = max +1;
 
         Product product = new Product(id, productName, productPrice, productDescription, producer);
         this.productService.save(product);

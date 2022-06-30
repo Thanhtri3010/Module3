@@ -1,0 +1,14 @@
+com/codegym/model/User.java
+ com.codegym.model.User
+com/codegym/service/IUserService.java
+ com.codegym.service.IUserService
+com/codegym/repository/IUserRepository.java
+ com.codegym.repository.IUserRepository
+com/codegym/repository/BaseRepository.java
+ com.codegym.repository.BaseRepository
+com/codegym/service/UserServiceImpl.java
+ com.codegym.service.UserServiceImpl
+com/codegym/repository/UserRepositoryImpl.java
+ com.codegym.repository.UserRepositoryImpl
+com/codegym/controller/UserServlet.java
+ com.codegym.controller.UserServlet
